@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+      "$ref": "#/definitions/City"
+  },
+  "definitions": {
+      "ID": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "$oid": {
+                  "type": "string"
+              }
+          },
+          "required": [
+              "$oid"
+          ],
+          "title": "_id"
+      },
+      "Airport": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "name": {
+                  "type": "string"
+              },
+              "iata": {
+                  "type": "string"
+              },
+              "apid": {
+                  "$ref": "#/definitions/ID"
+              }
+          },
+          "required": [
+              "apid",
+              "iata",
+              "name"
+          ],
+          "title": "airport"
+      },
+      "City": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_id": {
+                  "$ref": "#/definitions/ID"
+              },
+              "name": {
+                  "type": "string"
+              },
+              "country": {
+                  "$ref": "#/definitions/ID"
+              },
+              "timezone": {
+                  "type": "null"
+              },
+              "tz_id": {
+                  "type": "null"
+              },
+              "airports": {
+                  "type": "array",
+                  "items": {
+                      "$ref": "#/definitions/Airport"
+                  }
+              }
+          },
+          "required": [
+              "_id",
+              "airports",
+              "country",
+              "name",
+              "timezone",
+              "tz_id"
+          ],
+          "title": "City"
+      }
+  }
+}

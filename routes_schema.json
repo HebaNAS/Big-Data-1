@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+      "$ref": "#/definitions/Route"
+  },
+  "definitions": {
+      "ID": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "$oid": {
+                  "type": "string"
+              }
+          },
+          "required": [
+              "$oid"
+          ],
+          "title": "_id"
+      },
+      "Route": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_id": {
+                  "$ref": "#/definitions/ID"
+              },
+              "alid": {
+                  "$ref": "#/definitions/ID"
+              },
+              "src_ap": {
+                  "type": "string"
+              },
+              "src_apid": {
+                  "$ref": "#/definitions/ID"
+              },
+              "dst_ap": {
+                  "type": "string"
+              },
+              "dst_apid": {
+                  "$ref": "#/definitions/ID"
+              },
+              "codeshare": {
+                  "type": "string"
+              },
+              "stops": {
+                  "type": "string"
+              },
+              "equipment": {
+                  "type": "string"
+              }
+          },
+          "required": [
+              "_id",
+              "alid",
+              "codeshare",
+              "dst_ap",
+              "dst_apid",
+              "equipment",
+              "src_ap",
+              "src_apid",
+              "stops"
+          ],
+          "title": "Route"
+      }
+  }
+}

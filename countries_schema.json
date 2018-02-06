@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+      "$ref": "#/definitions/Country"
+  },
+  "definitions": {
+      "ID": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "$oid": {
+                  "type": "string"
+              }
+          },
+          "required": [
+              "$oid"
+          ],
+          "title": "_id"
+      },
+      "Airline": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "name": {
+                  "type": "string"
+              },
+              "iata": {
+                  "type": "string"
+              },
+              "alid": {
+                  "$ref": "#/definitions/ID"
+              }
+          },
+          "required": [
+              "alid",
+              "iata",
+              "name"
+          ],
+          "title": "airline"
+      },
+      "City": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "cid": {
+                  "$ref": "#/definitions/ID"
+              },
+              "name": {
+                  "type": "string"
+              },
+              "tz_id": {
+                  "type": "string"
+              }
+          },
+          "required": [
+              "cid",
+              "name",
+              "tz_id"
+          ],
+          "title": "city"
+      },
+      "Country": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_id": {
+                  "$ref": "#/definitions/ID"
+              },
+              "name": {
+                  "type": "string"
+              },
+              "oa_code": {
+                  "type": "string"
+              },
+              "dst": {
+                  "type": "string"
+              },
+              "airlines": {
+                  "type": "array",
+                  "items": {
+                      "$ref": "#/definitions/Airline"
+                  }
+              },
+              "cities": {
+                  "type": "array",
+                  "items": {
+                      "$ref": "#/definitions/City"
+                  }
+              }
+          },
+          "required": [
+              "_id",
+              "airlines",
+              "cities",
+              "dst",
+              "name",
+              "oa_code"
+          ],
+          "title": "Country"
+      }
+  }
+}

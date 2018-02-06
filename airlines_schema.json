@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+      "$ref": "#/definitions/Airline"
+  },
+  "definitions": {
+      "ID": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "$oid": {
+                  "type": "string"
+              }
+          },
+          "required": [
+              "$oid"
+          ],
+          "title": "_id"
+      },
+      "Route": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "src_ap": {
+                  "type": "string"
+              },
+              "dst_ap": {
+                  "type": "string"
+              },
+              "stops": {
+                  "type": "string"
+              },
+              "rid": {
+                  "$ref": "#/definitions/ID"
+              }
+          },
+          "required": [
+              "dst_ap",
+              "rid",
+              "src_ap",
+              "stops"
+          ],
+          "title": "route"
+      },
+      "Airline": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_id": {
+                  "$ref": "#/definitions/ID"
+              },
+              "name": {
+                  "type": "string"
+              },
+              "iata": {
+                  "type": "string"
+              },
+              "icao": {
+                  "type": "string"
+              },
+              "callsign": {
+                  "type": "string"
+              },
+              "country": {
+                  "$ref": "#/definitions/ID"
+              },
+              "alias": {
+                  "type": "string"
+              },
+              "mode": {
+                  "type": "string"
+              },
+              "active": {
+                  "type": "string"
+              },
+              "routes": {
+                  "type": "array",
+                  "items": {
+                      "$ref": "#/definitions/Route"
+                  }
+              }
+          },
+          "required": [
+              "_id",
+              "active",
+              "alias",
+              "callsign",
+              "country",
+              "iata",
+              "icao",
+              "mode",
+              "name"
+          ],
+          "title": "Airline"
+      }
+  }
+}

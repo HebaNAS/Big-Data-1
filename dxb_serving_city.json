@@ -1,0 +1,21 @@
+[
+	{
+		"_id" : ObjectId("5a75b8cea9f575338d01439a"),
+		"name" : "Dubai",
+		"country" : ObjectId("5a75b8cea9f575338d013c74"),
+		"timezone" : 4,
+		"tz_id" : "Asia/Dubai",
+		"airports" : [
+			{
+				"name" : "Dubai International Airport",
+				"iata" : "DXB",
+				"apid" : ObjectId("5a75b8c4a9f575338d002047")
+			},
+			{
+				"name" : "Al Maktoum International Airport",
+				"iata" : "DWC",
+				"apid" : ObjectId("5a75b8c4a9f575338d002f03")
+			}
+		]
+	}
+]

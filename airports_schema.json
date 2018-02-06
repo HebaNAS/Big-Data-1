@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": {
+      "$ref": "#/definitions/Airport"
+  },
+  "definitions": {
+      "ID": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "$oid": {
+                  "type": "string"
+              }
+          },
+          "required": [
+              "$oid"
+          ],
+          "title": "_id"
+      },
+      "Airport": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "_id": {
+                  "$ref": "#/definitions/ID"
+              },
+              "name": {
+                  "type": "string"
+              },
+              "city": {
+                  "$ref": "#/definitions/ID"
+              },
+              "icao": {
+                  "type": "string"
+              },
+              "x": {
+                  "type": "number"
+              },
+              "y": {
+                  "type": "number"
+              },
+              "elevation": {
+                  "type": "integer"
+              }
+          },
+          "required": [
+              "_id",
+              "city",
+              "elevation",
+              "icao",
+              "name",
+              "x",
+              "y"
+          ],
+          "title": "Airport"
+      }
+  }
+}

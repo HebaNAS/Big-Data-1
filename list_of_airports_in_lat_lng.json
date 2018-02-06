@@ -1,0 +1,1010 @@
+[
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001e27"),
+		"name" : "Ben Ya'akov Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015104"),
+		"icao" : "LLIB",
+		"x" : 35.5718994140625,
+		"y" : 32.98099899291992,
+		"elevation" : 922
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fd6"),
+		"name" : "Bahrain International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013f32"),
+		"icao" : "OBBI",
+		"x" : 50.63359832763672,
+		"y" : 26.27079963684082,
+		"elevation" : 6
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fd7"),
+		"name" : "Sheik Isa Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d013f32"),
+		"icao" : "OBBS",
+		"x" : 50.590599060058594,
+		"y" : 25.918399810791016,
+		"elevation" : 136
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fd9"),
+		"name" : "Al Ahsa Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013de3"),
+		"icao" : "OEAH",
+		"x" : 49.485198974609375,
+		"y" : 25.28529930114746,
+		"elevation" : 588
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fdc"),
+		"name" : "Abqaiq Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013d94"),
+		"icao" : "OEBQ",
+		"x" : 49.59120178222656,
+		"y" : 25.911300659179688,
+		"elevation" : 229
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fdd"),
+		"name" : "King Fahd International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01430b"),
+		"icao" : "OEDF",
+		"x" : 49.79790115356445,
+		"y" : 26.471200942993164,
+		"elevation" : 72
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fde"),
+		"name" : "King Abdulaziz Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d01435c"),
+		"icao" : "OEDR",
+		"x" : 50.152000427199994,
+		"y" : 26.265399932900003,
+		"elevation" : 84
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fe0"),
+		"name" : "Gassim Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014521"),
+		"icao" : "OEGS",
+		"x" : 43.77439880371094,
+		"y" : 26.302799224853516,
+		"elevation" : 2126
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fe1"),
+		"name" : "Gurayat Domestic Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0145f6"),
+		"icao" : "OEGT",
+		"x" : 37.278898,
+		"y" : 31.412413,
+		"elevation" : 1672
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fe2"),
+		"name" : "Ha'il Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014611"),
+		"icao" : "OEHL",
+		"x" : 41.686298,
+		"y" : 27.437901,
+		"elevation" : 3331
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fe3"),
+		"name" : "Jubail Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0147c0"),
+		"icao" : "OEJB",
+		"x" : 49.40510177612305,
+		"y" : 27.038999557495117,
+		"elevation" : 26
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fe6"),
+		"name" : "King Khaled Military City Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0148ad"),
+		"icao" : "OEKK",
+		"x" : 45.528198,
+		"y" : 27.9009,
+		"elevation" : 1352
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fe7"),
+		"name" : "Prince Mohammad Bin Abdulaziz Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014ae5"),
+		"icao" : "OEMA",
+		"x" : 39.705101013183594,
+		"y" : 24.55340003967285,
+		"elevation" : 2151
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fe9"),
+		"name" : "Al Qaisumah/Hafr Al Batin Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014609"),
+		"icao" : "OEPA",
+		"x" : 46.125099,
+		"y" : 28.335199,
+		"elevation" : 1174
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fea"),
+		"name" : "Pump Station 3 Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014f27"),
+		"icao" : "OEPC",
+		"x" : 47.488399505615234,
+		"y" : 25.17449951171875,
+		"elevation" : 1740
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001feb"),
+		"name" : "Pump Station 6 Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014f28"),
+		"icao" : "OEPF",
+		"x" : 44.964500427246094,
+		"y" : 24.71030044555664,
+		"elevation" : 2530
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fec"),
+		"name" : "Pump Station 10 Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014f26"),
+		"icao" : "OEPJ",
+		"x" : 41.0359992980957,
+		"y" : 24.1072998046875,
+		"elevation" : 2840
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fee"),
+		"name" : "Rafha Domestic Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015058"),
+		"icao" : "OERF",
+		"x" : 43.4906005859375,
+		"y" : 29.626399993896484,
+		"elevation" : 1474
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fef"),
+		"name" : "King Khaled International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0150e0"),
+		"icao" : "OERK",
+		"x" : 46.69879913330078,
+		"y" : 24.957599639892578,
+		"elevation" : 2049
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ff0"),
+		"name" : "Ras Mishab Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01507c"),
+		"icao" : "OERM",
+		"x" : 48.611000061035156,
+		"y" : 28.079599380493164,
+		"elevation" : 13
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ff1"),
+		"name" : "Arar Domestic Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013ea5"),
+		"icao" : "OERR",
+		"x" : 41.13819885253906,
+		"y" : 30.906600952148438,
+		"elevation" : 1813
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ff2"),
+		"name" : "Ras Tanura Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01507b"),
+		"icao" : "OERT",
+		"x" : 50.030799865722656,
+		"y" : 26.723100662231445,
+		"elevation" : 6
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ff5"),
+		"name" : "Tabuk Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0153dc"),
+		"icao" : "OETB",
+		"x" : 36.6189,
+		"y" : 28.3654,
+		"elevation" : 2551
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ff7"),
+		"name" : "Thumamah Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015485"),
+		"icao" : "OETH",
+		"x" : 46.64099884033203,
+		"y" : 25.21299934387207,
+		"elevation" : 1870
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ff8"),
+		"name" : "Ras Tanajib Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01507a"),
+		"icao" : "OETN",
+		"x" : 48.769100189208984,
+		"y" : 27.867799758911133,
+		"elevation" : 30
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ff9"),
+		"name" : "Turaif Domestic Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01552e"),
+		"icao" : "OETR",
+		"x" : 38.731544,
+		"y" : 31.692188,
+		"elevation" : 2803
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ffa"),
+		"name" : "Al Wajh Domestic Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015662"),
+		"icao" : "OEWJ",
+		"x" : 36.47639846801758,
+		"y" : 26.19860076904297,
+		"elevation" : 66
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ffb"),
+		"name" : "Prince Abdulmohsin Bin Abdulaziz Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01570c"),
+		"icao" : "OEYN",
+		"x" : 38.0634,
+		"y" : 24.144199,
+		"elevation" : 26
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ffc"),
+		"name" : "Abadan Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013d86"),
+		"icao" : "OIAA",
+		"x" : 48.2282981873,
+		"y" : 30.371099472,
+		"elevation" : 10
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ffd"),
+		"name" : "Dezful Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01435b"),
+		"icao" : "OIAD",
+		"x" : 48.397598,
+		"y" : 32.434399,
+		"elevation" : 474
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001ffe"),
+		"name" : "Aghajari Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013db3"),
+		"icao" : "OIAG",
+		"x" : 49.6772,
+		"y" : 30.7444,
+		"elevation" : 88
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d001fff"),
+		"name" : "Gachsaran Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0144ff"),
+		"icao" : "OIAH",
+		"x" : 50.827999115,
+		"y" : 30.337600708,
+		"elevation" : 2414
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002000"),
+		"name" : "Shahid Asyaee Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014b98"),
+		"icao" : "OIAI",
+		"x" : 49.27040100097656,
+		"y" : 32.00239944458008,
+		"elevation" : 1206
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002001"),
+		"name" : "Omidiyeh Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014e3b"),
+		"icao" : "OIAJ",
+		"x" : 49.5349006652832,
+		"y" : 30.8351993560791,
+		"elevation" : 85
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002002"),
+		"name" : "Mahshahr Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013f5e"),
+		"icao" : "OIAM",
+		"x" : 49.15190124511719,
+		"y" : 30.55620002746582,
+		"elevation" : 8
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002003"),
+		"name" : "Ahwaz Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013dbe"),
+		"icao" : "OIAW",
+		"x" : 48.7620010376,
+		"y" : 31.337400436399996,
+		"elevation" : 66
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002004"),
+		"name" : "Abumusa Island Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013d98"),
+		"icao" : "OIBA",
+		"x" : 55.03300094604492,
+		"y" : 25.875699996948242,
+		"elevation" : 23
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002005"),
+		"name" : "Bushehr Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01410a"),
+		"icao" : "OIBB",
+		"x" : 50.8345985413,
+		"y" : 28.9447994232,
+		"elevation" : 68
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002006"),
+		"name" : "Bastak Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013f9b"),
+		"icao" : "OIBH",
+		"x" : 54.318599700927734,
+		"y" : 27.21269989013672,
+		"elevation" : 1350
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002007"),
+		"name" : "Asaloyeh Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014574"),
+		"icao" : "OIBI",
+		"x" : 52.615501,
+		"y" : 27.4814,
+		"elevation" : 15
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002008"),
+		"name" : "Kish International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0148c9"),
+		"icao" : "OIBK",
+		"x" : 53.980201721200004,
+		"y" : 26.5261993408,
+		"elevation" : 101
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002009"),
+		"name" : "Bandar Lengeh Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013f5d"),
+		"icao" : "OIBL",
+		"x" : 54.824798584,
+		"y" : 26.531999588,
+		"elevation" : 67
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00200a"),
+		"name" : "Khark Island Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014885"),
+		"icao" : "OIBQ",
+		"x" : 50.32389831542969,
+		"y" : 29.260299682617188,
+		"elevation" : 17
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00200b"),
+		"name" : "Sirri Island Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0152cb"),
+		"icao" : "OIBS",
+		"x" : 54.539398193359375,
+		"y" : 25.908899307250977,
+		"elevation" : 43
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00200c"),
+		"name" : "Lavan Island Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0149ee"),
+		"icao" : "OIBV",
+		"x" : 53.356300354003906,
+		"y" : 26.810300827026367,
+		"elevation" : 76
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00200f"),
+		"name" : "Hesa Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014312"),
+		"icao" : "OIFE",
+		"x" : 51.561100006103516,
+		"y" : 32.92890167236328,
+		"elevation" : 5256
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002010"),
+		"name" : "Shahid Vatan Pour Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d014435"),
+		"icao" : "OIFH",
+		"x" : 51.69160079956055,
+		"y" : 32.56700134277344,
+		"elevation" : 5310
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002012"),
+		"name" : "Esfahan Shahid Beheshti International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014435"),
+		"icao" : "OIFM",
+		"x" : 51.86130142211914,
+		"y" : 32.75080108642578,
+		"elevation" : 5059
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002013"),
+		"name" : "Badr Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d015259"),
+		"icao" : "OIFP",
+		"x" : 51.696998596191406,
+		"y" : 32.62110137939453,
+		"elevation" : 5242
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00201d"),
+		"name" : "Bandar Abbas International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013f5b"),
+		"icao" : "OIKB",
+		"x" : 56.37779998779297,
+		"y" : 27.218299865722656,
+		"elevation" : 22
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00201e"),
+		"name" : "Jiroft Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0147a1"),
+		"icao" : "OIKJ",
+		"x" : 57.67029953,
+		"y" : 28.726900100699996,
+		"elevation" : 2663
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00201f"),
+		"name" : "Kerman Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014876"),
+		"icao" : "OIKK",
+		"x" : 56.9510993958,
+		"y" : 30.274400711099997,
+		"elevation" : 5741
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002020"),
+		"name" : "Havadarya Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013f5b"),
+		"icao" : "OIKP",
+		"x" : 56.17250061035156,
+		"y" : 27.158300399780273,
+		"elevation" : 19
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002021"),
+		"name" : "Dayrestan Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01454a"),
+		"icao" : "OIKQ",
+		"x" : 55.902400970458984,
+		"y" : 26.754600524902344,
+		"elevation" : 45
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002022"),
+		"name" : "Sirjan Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0152cc"),
+		"icao" : "OIKY",
+		"x" : 55.672698974609375,
+		"y" : 29.550899505615234,
+		"elevation" : 5846
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002026"),
+		"name" : "Tabas Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0153d5"),
+		"icao" : "OIMT",
+		"x" : 56.8927001953,
+		"y" : 33.6678009033,
+		"elevation" : 2312
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002029"),
+		"name" : "Fasa Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01446c"),
+		"icao" : "OISF",
+		"x" : 53.72330093383789,
+		"y" : 28.891799926757812,
+		"elevation" : 4261
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00202a"),
+		"name" : "Jahrom Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014771"),
+		"icao" : "OISJ",
+		"x" : 53.5791015625,
+		"y" : 28.586700439499996,
+		"elevation" : 3358
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00202b"),
+		"name" : "Lamerd Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0149b7"),
+		"icao" : "OISR",
+		"x" : 53.18880081179999,
+		"y" : 27.3726997375,
+		"elevation" : 1337
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00202c"),
+		"name" : "Shiraz Shahid Dastghaib International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015291"),
+		"icao" : "OISS",
+		"x" : 52.58980178833008,
+		"y" : 29.539199829101562,
+		"elevation" : 4920
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002030"),
+		"name" : "Shahid Sadooghi Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015706"),
+		"icao" : "OIYY",
+		"x" : 54.2765007019,
+		"y" : 31.9048995972,
+		"elevation" : 4054
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002036"),
+		"name" : "Queen Alia International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013e46"),
+		"icao" : "OJAI",
+		"x" : 35.9931983948,
+		"y" : 31.7226009369,
+		"elevation" : 2395
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002037"),
+		"name" : "Amman-Marka International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013e46"),
+		"icao" : "OJAM",
+		"x" : 35.991600036621094,
+		"y" : 31.972700119018555,
+		"elevation" : 2555
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002039"),
+		"name" : "Prince Hassan Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d0146c0"),
+		"icao" : "OJHF",
+		"x" : 37.149399,
+		"y" : 32.160702,
+		"elevation" : 2220
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00203b"),
+		"name" : "King Hussein Air College",
+		"city" : ObjectId("5a75b8cea9f575338d014aef"),
+		"icao" : "OJMF",
+		"x" : 36.259201,
+		"y" : 32.3564,
+		"elevation" : 2240
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00203c"),
+		"name" : "Kuwait International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014957"),
+		"icao" : "OKBK",
+		"x" : 47.96889877319336,
+		"y" : 29.226600646972656,
+		"elevation" : 206
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00203f"),
+		"name" : "Abu Dhabi International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013d95"),
+		"icao" : "OMAA",
+		"x" : 54.651100158691406,
+		"y" : 24.433000564575195,
+		"elevation" : 88
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002040"),
+		"name" : "Bateen Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013d95"),
+		"icao" : "OMAD",
+		"x" : 54.458099365234375,
+		"y" : 24.428300857543945,
+		"elevation" : 16
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002041"),
+		"name" : "Al Hamra Aux Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013ddf"),
+		"icao" : "OMAH",
+		"x" : 52.463600158691406,
+		"y" : 24.073999404907227,
+		"elevation" : 50
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002042"),
+		"name" : "Jebel Dhana Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014786"),
+		"icao" : "OMAJ",
+		"x" : 52.61399841308594,
+		"y" : 24.187400817871094,
+		"elevation" : 43
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002043"),
+		"name" : "Al Dhafra Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d013d95"),
+		"icao" : "OMAM",
+		"x" : 54.547698974599996,
+		"y" : 24.248199462900004,
+		"elevation" : 77
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002044"),
+		"name" : "Arzanah Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013ecc"),
+		"icao" : "OMAR",
+		"x" : 52.559898376464844,
+		"y" : 24.780500411987305,
+		"elevation" : 15
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002045"),
+		"name" : "Das Island Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014318"),
+		"icao" : "OMAS",
+		"x" : 52.87369918823242,
+		"y" : 25.14620018005371,
+		"elevation" : 12
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002046"),
+		"name" : "Zirku Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015764"),
+		"icao" : "OMAZ",
+		"x" : 53.07714080810547,
+		"y" : 24.862491607666016,
+		"elevation" : 14
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002047"),
+		"name" : "Dubai International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01439a"),
+		"icao" : "OMDB",
+		"x" : 55.3643989563,
+		"y" : 25.2527999878,
+		"elevation" : 62
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002048"),
+		"name" : "Fujairah International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0144ec"),
+		"icao" : "OMFJ",
+		"x" : 56.32400131225586,
+		"y" : 25.112199783325195,
+		"elevation" : 152
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002049"),
+		"name" : "Ras Al Khaimah International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015078"),
+		"icao" : "OMRK",
+		"x" : 55.93880081176758,
+		"y" : 25.613500595092773,
+		"elevation" : 102
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00204a"),
+		"name" : "Sharjah International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015273"),
+		"icao" : "OMSJ",
+		"x" : 55.5172004699707,
+		"y" : 25.32859992980957,
+		"elevation" : 111
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00204b"),
+		"name" : "Khasab Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d014888"),
+		"icao" : "OOKB",
+		"x" : 56.2406005859375,
+		"y" : 26.17099952697754,
+		"elevation" : 100
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00206f"),
+		"name" : "Basrah International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013f98"),
+		"icao" : "ORMM",
+		"x" : 47.66210174560547,
+		"y" : 30.549100875854492,
+		"elevation" : 11
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002071"),
+		"name" : "Damascus International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014308"),
+		"icao" : "OSDI",
+		"x" : 36.51559829711914,
+		"y" : 33.4114990234375,
+		"elevation" : 2020
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002075"),
+		"name" : "Doha International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01437f"),
+		"icao" : "OTBD",
+		"x" : 51.5651016235,
+		"y" : 25.261100769,
+		"elevation" : 35
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00273d"),
+		"name" : "Baghdad International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013f29"),
+		"icao" : "ORBI",
+		"x" : 44.2346000671,
+		"y" : 33.262500762900004,
+		"elevation" : 114
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002743"),
+		"name" : "Al Asad Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d013dd9"),
+		"icao" : "ORAA",
+		"x" : 42.4412002563,
+		"y" : 33.7855987549,
+		"elevation" : 618
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002744"),
+		"name" : "Al Taqaddum Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d013de2"),
+		"icao" : "ORAT",
+		"x" : 43.597099304199,
+		"y" : 33.33810043335,
+		"elevation" : 275
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d0029e7"),
+		"name" : "Dawadmi Domestic Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014322"),
+		"icao" : "OEDW",
+		"x" : 44.400001525878906,
+		"y" : 24.5,
+		"elevation" : 3429
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d0029e8"),
+		"name" : "Al-Jawf Domestic Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013de4"),
+		"icao" : "OESK",
+		"x" : 40.099998474121094,
+		"y" : 29.78510093688965,
+		"elevation" : 2261
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d0029ea"),
+		"name" : "Khoram Abad Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01488e"),
+		"icao" : "OICK",
+		"x" : 48.282901763916016,
+		"y" : 33.43539810180664,
+		"elevation" : 3782
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d0029eb"),
+		"name" : "Bam Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013f53"),
+		"icao" : "OIKM",
+		"x" : 58.45000076293945,
+		"y" : 29.084199905395508,
+		"elevation" : 3231
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d0029ec"),
+		"name" : "Rafsanjan Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015059"),
+		"icao" : "OIKR",
+		"x" : 56.05110168457031,
+		"y" : 30.297700881958008,
+		"elevation" : 5298
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d0029f1"),
+		"name" : "Lar Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0149d4"),
+		"icao" : "OISL",
+		"x" : 54.3833007812,
+		"y" : 27.6746997833,
+		"elevation" : 2641
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d0029f4"),
+		"name" : "Al Ain International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013dd8"),
+		"icao" : "OMAL",
+		"x" : 55.60919952392578,
+		"y" : 24.261699676513672,
+		"elevation" : 869
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002c01"),
+		"name" : "Ilam Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014702"),
+		"icao" : "OICI",
+		"x" : 46.40480041503906,
+		"y" : 33.58660125732422,
+		"elevation" : 4404
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002c0b"),
+		"name" : "Shahrekord Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015268"),
+		"icao" : "OIFS",
+		"x" : 50.842201232899995,
+		"y" : 32.2971992493,
+		"elevation" : 6723
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002c43"),
+		"name" : "Al Udeid Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d01437f"),
+		"icao" : "OTBH",
+		"x" : 51.3149986267,
+		"y" : 25.1173000336,
+		"elevation" : 130
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002cbf"),
+		"name" : "Prince Sultan Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d013de1"),
+		"icao" : "OEPS",
+		"x" : 47.580501556396484,
+		"y" : 24.062700271606445,
+		"elevation" : 1651
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002ddb"),
+		"name" : "Al Najaf International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014d12"),
+		"icao" : "ORNI",
+		"x" : 44.404317,
+		"y" : 31.989853,
+		"elevation" : 103
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002dfb"),
+		"name" : "Persian Gulf International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d014881"),
+		"icao" : "OIBP",
+		"x" : 52.737701,
+		"y" : 27.379601,
+		"elevation" : 27
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002dfc"),
+		"name" : "Yasouj Airport",
+		"city" : ObjectId("5a75b8cea9f575338d015705"),
+		"icao" : "OISY",
+		"x" : 51.545101165771,
+		"y" : 30.700500488281,
+		"elevation" : 5939
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002ea2"),
+		"name" : "Al Minhad Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d014c36"),
+		"icao" : "OMDM",
+		"x" : 55.3661994934,
+		"y" : 25.0268001556,
+		"elevation" : 165
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002f03"),
+		"name" : "Al Maktoum International Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01439a"),
+		"icao" : "OMDW",
+		"x" : 55.161389,
+		"y" : 24.896356,
+		"elevation" : 114
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d002fb4"),
+		"name" : "Ali Al Salem Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d014957"),
+		"icao" : "OKAS",
+		"x" : 47.52080154418945,
+		"y" : 29.34670066833496,
+		"elevation" : 472
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d0030da"),
+		"name" : "Sir Bani Yas Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0152ca"),
+		"icao" : "OMBY",
+		"x" : 52.580278,
+		"y" : 24.283611,
+		"elevation" : 25
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d003232"),
+		"name" : "Ali Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d014d48"),
+		"icao" : "ORTL",
+		"x" : 46.0900993347168,
+		"y" : 30.935800552368164,
+		"elevation" : 20
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d0032c4"),
+		"name" : "Sohar Airport",
+		"city" : ObjectId("5a75b8cea9f575338d0152fc"),
+		"icao" : "OOSH",
+		"x" : 56.62541,
+		"y" : 24.38604,
+		"elevation" : 20
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d003389"),
+		"name" : "Dawadmi Domestic Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013d7d"),
+		"icao" : "OEDM",
+		"x" : 44.121201,
+		"y" : 24.4499,
+		"elevation" : 3026
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00338b"),
+		"name" : "Riyadh Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d0150e0"),
+		"icao" : "OERY",
+		"x" : 46.72520065307617,
+		"y" : 24.709800720214844,
+		"elevation" : 2082
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00338c"),
+		"name" : "Jam Airport",
+		"city" : ObjectId("5a75b8cea9f575338d01480a"),
+		"icao" : "OIBJ",
+		"x" : 52.35219955444336,
+		"y" : 27.820499420166016,
+		"elevation" : 2173
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00338f"),
+		"name" : "Ahmed Al Jaber Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d013dbb"),
+		"icao" : "OKAJ",
+		"x" : 47.791900634799994,
+		"y" : 28.9347991943,
+		"elevation" : 409
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d003390"),
+		"name" : "Rayak Air Base",
+		"city" : ObjectId("5a75b8cea9f575338d015082"),
+		"icao" : "OLRA",
+		"x" : 35.987701416015625,
+		"y" : 33.850799560546875,
+		"elevation" : 3018
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d003399"),
+		"name" : "Al Taji Army Air Field",
+		"city" : ObjectId("5a75b8cea9f575338d0153ef"),
+		"icao" : "ORTI",
+		"x" : 44.25669860839844,
+		"y" : 33.52389907836914,
+		"elevation" : 121
+	},
+	{
+		"_id" : ObjectId("5a75b8c4a9f575338d00339a"),
+		"name" : "Ubaydah Bin Al Jarrah Airport",
+		"city" : ObjectId("5a75b8cea9f575338d013ddd"),
+		"icao" : "ORUB",
+		"x" : 45.75709915161133,
+		"y" : 32.481998443603516,
+		"elevation" : 68
+	}
+]
