@@ -1,5 +1,6 @@
 # Copying Airlines Table from MySQL into a MongoDB Collection
-# Airlines Table will be embedded as a subdocument inside Countries Collection on the Country Field
+# Airlines Table will be embedded as a subdocument inside Countries Collection
+# identified by the country field which is a foreign key that refernces that country in Countries Table
 table "airlines", :embed_in => :countries, :on => :country do
   column "alid", :integer, :references => :airlines
   column "name", :text
@@ -21,7 +22,8 @@ table "airlines" do
 end
 
 # Copying Airports Table from MySQL into a MongoDB Collection
-# Airports Table will be embedded as a subdocument inside Cities Collection on the City Field
+# Airports Table will be embedded as a subdocument inside Cities Collection 
+# identified by the city field which is a foreign key that refernces that city in Cities Table
 table "airports", :embed_in => :cities, :on => :city do
   column "apid", :integer, :references => :airports
   column "name", :text
@@ -42,7 +44,8 @@ table "airports" do
 end
 
 # Copying Routes Table from MySQL into a MongoDB Collection
-# Routes Table will be embedded as a subdocument inside Airlines Collection on the Airline ID Field
+# Routes Table will be embedded as a subdocument inside Airlines Collection
+# identified by the airline id (alid) field which is a foreign key that refernces that airline in Airlines Table
 table "routes", :embed_in => :airlines, :on => :alid do
   column "alid", :integer, :references => :airlines
   column "rid", :integer, :references => :routes
@@ -74,7 +77,8 @@ table "countries" do
 end
 
 # Copying Cities Table from MySQL into a MongoDB Collection
-# Cities Table will be embedded as a subdocument inside Countries Collection on the Country Field
+# Cities Table will be embedded as a subdocument inside Countries Collection
+# identified by the country field which is a foreign key that refernces that country in Countries Table
 table "cities", :embed_in => :countries, :on => :country do
   column "cid", :integer, :references => :cities
   column "name", :text
