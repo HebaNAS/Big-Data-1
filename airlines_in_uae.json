@@ -1,99 +1,159 @@
+MongoDB shell version: 3.2.8
+connecting to: flights
 [
 	{
-		"airlines" : [
-			{
-				"name" : "Aerovista Airlines"
-			},
-			{
-				"name" : "Air Arabia"
-			},
-			{
-				"name" : "Avjet International (FZE)"
-			},
-			{
-				"name" : "Aerovista Gulf Express"
-			},
-			{
-				"name" : "Abu Dhabi Amiri Flight"
-			},
-			{
-				"name" : "Al Rais Cargo"
-			},
-			{
-				"name" : "Ave.com"
-			},
-			{
-				"name" : "Flying Dolphin Airlines"
-			},
-			{
-				"name" : "Dubai Airwing"
-			},
-			{
-				"name" : "Eastern Sky Jets"
-			},
-			{
-				"name" : "Elite Jets"
-			},
-			{
-				"name" : "Emirates"
-			},
-			{
-				"name" : "Etihad Airways"
-			},
-			{
-				"name" : "Execujet Middle East"
-			},
-			{
-				"name" : "Fair Wind Air Charter"
-			},
-			{
-				"name" : "Falcon Aviation Services"
-			},
-			{
-				"name" : "Fujairah Aviation Centre"
-			},
-			{
-				"name" : "Hamra Air"
-			},
-			{
-				"name" : "Heavylift International"
-			},
-			{
-				"name" : "Cargo Plus Aviation"
-			},
-			{
-				"name" : "Jet-Ops"
-			},
-			{
-				"name" : "Maximus Air Cargo"
-			},
-			{
-				"name" : "Nakheel Aviation"
-			},
-			{
-				"name" : "RAK Airways"
-			},
-			{
-				"name" : "Red Star"
-			},
-			{
-				"name" : "Royal Jet"
-			},
-			{
-				"name" : "Sharjah Ruler's Flight"
-			},
-			{
-				"name" : "United Arab Emirates Air Force"
-			},
-			{
-				"name" : "Jupiter Airlines"
-			},
-			{
-				"name" : "Fly Dubai"
-			},
-			{
-				"name" : "Rotana Jet"
-			}
-		]
+		"airlines" : {
+			"name" : "Abu Dhabi Amiri Flight"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Aerovista Airlines"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Aerovista Gulf Express"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Air Arabia"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Al Rais Cargo"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Ave.com"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Avjet International (FZE)"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Cargo Plus Aviation"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Dubai Airwing"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Eastern Sky Jets"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Elite Jets"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Emirates"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Etihad Airways"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Execujet Middle East"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Fair Wind Air Charter"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Falcon Aviation Services"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Fly Dubai"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Flying Dolphin Airlines"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Fujairah Aviation Centre"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Hamra Air"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Heavylift International"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Jet-Ops"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Jupiter Airlines"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Maximus Air Cargo"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Nakheel Aviation"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "RAK Airways"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Red Star"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Rotana Jet"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Royal Jet"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "Sharjah Ruler's Flight"
+		}
+	},
+	{
+		"airlines" : {
+			"name" : "United Arab Emirates Air Force"
+		}
 	}
 ]

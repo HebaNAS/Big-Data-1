@@ -1,4 +1,4 @@
-// Find _ids for matching routes where the src airport is DXB
+Find _ids for matching routes where the src airport is DXB
 var matches = db.routes.find({src_ap: "DXB"}, {"dst_apid": 1, _id: 0});
 
 // Store matching _id values into an array of ObjectIDs
